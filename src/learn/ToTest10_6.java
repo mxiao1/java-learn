@@ -1,6 +1,6 @@
 package learn;
 
-import Test10.Test10_6;
+import test10.Test10_6;
 
 public class ToTest10_6 {
 	protected class Xiao implements Test10_6{
