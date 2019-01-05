@@ -1,4 +1,4 @@
-package Test10;
+package test10;
 
 public interface Test10_20 {
 	void f();
