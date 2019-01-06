@@ -31,7 +31,7 @@ static class A{
 	                this.setValue(value);  
 	                System.out.println(value);  
 	            }  
-	            return value;  
+	            return value;
 	        }  
 	    }  
 static class B extends A{  
@@ -44,3 +44,4 @@ static class B extends A{
 	        }  
 	    }  
 }
+class goood{}
