@@ -13,7 +13,7 @@ public class He{
 	 public static void main(String [] args){  
 	        System.out.println(new B().getValue());  
 	    }  
-static class A{  
+static class A{
 	        protected int value;  
 	        public A(int v) {  
 	            setValue(v);  
@@ -22,13 +22,13 @@ static class A{
 	            this.value = value;  
 	        }  
 	        public int getValue(){  
-	            try{  
+	            try{
 	                value++;  
 	                 System.out.print(value);  
 	            } catch(Exception e){  
 	                System.out.println(e.toString());  
 	            } finally {  
-	                this.setValue(value);  
+	                this.setValue(value);
 	                System.out.println(value);  
 	            }  
 	            return value;
